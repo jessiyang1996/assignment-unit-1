@@ -12,6 +12,7 @@
 # 4 - What is a quick way to create a new folder?
     mkdir [file name] 
     ex. mkdir Prime
+    Command 'mkdir Prime' will make a new folder (directory) called "Prime".
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
     In an empty folder, it will seem like nothing happened. 
@@ -26,11 +27,11 @@
     git version 2.33.0
 
 # 8 - Why would you run the command 'git status'?
-    'git status' allows us to see if there are any changes made locally on the computer.
+    'git status' allows us to see any changes made locally on the computer.
     You would want to run it various times during your coding to check to see what changes were made, if the commit or push went through, etc.
 
 # 9 - What does the command 'git add .' do?
-    The command 'git add .' allows us to select all the changed files.
+    The command 'git add .' allows us to select all the changed files and add it to the stage area.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
     'git push' is used to push changes from repo onto GitHub.
