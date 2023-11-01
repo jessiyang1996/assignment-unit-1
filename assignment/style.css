@@ -1,13 +1,51 @@
 /* Add a background color to the header element */
-
+header {
+    background-color: #1d94fd;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    height: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
 /* Add a fun background color to the main element */
-
+main {
+    background-color: #d5f1fc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+    color: #3b0088;
+    font-style: italic;
+    text-align: center;
+}
 /* Put a border around your image */
+img {
+    border: 15px dotted #074a90;
+    max-width: 555px;
+}
 
 /* Change the font-family of your list */
-
+li {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
 /* Add a background color to the footer element */
+footer {
+    background-color: #1d94fd;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    font-size: larger;
+}
