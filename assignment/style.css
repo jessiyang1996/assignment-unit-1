@@ -43,8 +43,8 @@ footer {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display:grid;
+    grid-template-columns: 45% 10% auto;
     align-items: center;
     gap: 10px;
     font-size: larger;
